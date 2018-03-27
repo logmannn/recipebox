@@ -1,0 +1,13 @@
+input, label {
+  display: block;
+  margin: 10px;
+}
+
+#addForm{
+  display: table;
+  margin: 0 auto;
+}
+
+button {
+  margin: 10px;
+}

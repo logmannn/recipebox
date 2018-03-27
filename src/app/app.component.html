@@ -22,4 +22,22 @@
     </div>
     <!-- <button type="button" name="button" [(ng-click)]="AppComponent.addRecipe()">Add Recipe</button> -->
   </div>
+  <div id="addForm" class="center-block">
+    <form>
+      <h3>{{formName}}</h3>
+      <div class="form-group">
+        <label for="recipeName">Recipe Name</label>
+        <input type="text" id="name" name="name" value="">
+        <label for="recipeDescription">Recipe Description</label>
+        <input type="text area" id="description" name="description" value="">
+        <label for="ingredientName">Add an Ingredient</label>
+        <input type="text" id="ingredients" name="ingredients" value="">
+        <button (click)="addIngredientToRecipe()" type="button" id="addIng" name="addIng">Add Ingredient</button>
+        <label for="instructionName">Add an Instruction</label>
+        <input type="text" id="instructions" name="instructions" value="">
+        <button type="button" id="addInst" name="addInst">Add Instruction</button>
+      </div>
+      <button type="submit" class="btn-success" name="button">ADD</button>
+    </form>
+  </div>
 </div>

@@ -13,10 +13,6 @@ export class RecipeBox{
 
   }
 
-  addIngredientToRecipe(recipe){
-
-  }
-
   addInstructionToRecipe(recipe){
 
   }
