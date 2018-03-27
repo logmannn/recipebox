@@ -26,11 +26,11 @@ Build a basic Recipe Box application in Angular from scratch. For now, you'll ha
 
 * Create a RecipeBox object called Recipe Box that will hold all the recipes -- X
 
-* Instantiate a Recipe object called tempRecipe
+* Instantiate a Recipe object called tempRecipe -- X
 
-* Write to a property in the tempRecipe object
+* Write to a property in the tempRecipe object -- X
 
-* Fill the Ingredients and Instructions array of tempRecipe with mock data
+* Fill the Ingredients and Instructions array of tempRecipe with mock data -- X
 
 * Create a method in RecipeBox to **Add** a recipe to the AllRecipes array of Recipe objects
 

@@ -13,20 +13,33 @@ export class RecipeBox{
 
   }
 
-  addRecipe(useAddForm){
+  addIngredientToRecipe(recipe){
+
+  }
+
+  addInstructionToRecipe(recipe){
+
+  }
+
+  addRecipe(myRecipeBox, myRecipe, useAddForm){
     console.log("got into addRecipe in the object");
+    myRecipeBox.recipes.push(myRecipe);
     useAddForm();
   }
 
-  findRecipe(){
+  saveRecipe(){
 
   }
 
-  editRecipe(){
+  findRecipe(searchTerm){
 
   }
 
-  deleteRecipe(){
+  updateRecipe(recipe){
+
+  }
+
+  deleteRecipe(recipe){
 
   }
 

@@ -4,10 +4,22 @@
     <h2>Recipe Box</h2>
   </div>
   <div class="well">
+    <div *ngIf="hasRecipes > 0; else elseBlock">
+      <h2>Recipes:</h2>
+      <a href=""><p *ngFor="let currentRecipe of myRecipeBox.recipes">{{currentRecipe.name}}</p></a>
+      <!-- the href needs to load the recipe when clicked; to be replaced by click="" -->
+    </div>
+    <ng-template #elseBlock>There are no recipes yet.</ng-template>
+  </div>
+  <div class="well">
     <p>Add a recipe? Later this will be description and then a list</p>
-    <ul>
-      <li><button (click)="addRecipe()">Add a Recipe</button></li>
-    </ul>
+    <div class="row">
+      <div class="col-md-2"><button (click)="addRecipe()">Add a Recipe</button></div>
+      <div class="col-md-2"><button (click)="updateRecipe()">Edit a Recipe</button></div>
+      <div class="col-md-2"><button (click)="deleteRecipe()">Delete a Recipe</button></div>
+      <div class="col-md-2"><button (click)="findRecipe()">Find a Recipe</button></div>
+      <div class="col-md-2"><input type="text"/></div>
+    </div>
     <!-- <button type="button" name="button" [(ng-click)]="AppComponent.addRecipe()">Add Recipe</button> -->
   </div>
 </div>
