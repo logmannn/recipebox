@@ -18,13 +18,13 @@ Build a basic Recipe Box application in Angular from scratch. For now, you'll ha
 3) As a user, I want to be able to hide a recipe's details when I'm done viewing them.
 
 4) As a user, I want to edit my recipes if I need to.
-  a) I'd like to see changes reflected live on the page as I make them.
+  - a) I'd like to see changes reflected live on the page as I make them.
 
 ## Specifications
 
-* Create a Recipe object called Recipe (this will be the structure of all recipes)
+* Create a Recipe object called Recipe (this will be the structure of all recipes) -- X
 
-* Create a RecipeBox object called Recipe Box that will hold all the recipes
+* Create a RecipeBox object called Recipe Box that will hold all the recipes -- X
 
 * Instantiate a Recipe object called tempRecipe
 
