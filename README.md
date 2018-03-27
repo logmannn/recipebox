@@ -1,6 +1,6 @@
 # Recipebox
 
-#### By Andy Grossberg & Logan Tanous
+### By Andy Grossberg & Logan Tanous
 
 ## Description
 An Angular application to create, read, update and delete recipes.
@@ -11,24 +11,50 @@ An Angular application to create, read, update and delete recipes.
 
 Build a basic Recipe Box application in Angular from scratch. For now, you'll hard-code your Recipe objects into the application, just like we hard-coded our Tasks into our To Do List. At the very least, each Recipe object should contain properties for a title, a list of ingredients, and the directions necessary to prepare the recipe.
 
-* As a user, I want to see only the title of each recipe when I first visit the page
+1) As a user, I want to see only the title of each recipe when I first visit the page
 
-* As a user, I want to click a recipe's title to see its other details; like the ingredients and instructions.
+2) As a user, I want to click a recipe's title to see its other details; like the ingredients and instructions.
 
-* As a user, I want to be able to hide a recipe's details when I'm done viewing them.
+3) As a user, I want to be able to hide a recipe's details when I'm done viewing them.
 
-* As a user, I want to edit my recipes if I need to. I'd like to see changes reflected live on the page as I make them.
+4) As a user, I want to edit my recipes if I need to.
+  a) I'd like to see changes reflected live on the page as I make them.
 
 ## Specifications
 
-* Create a Doctor Lookup object called Doctorlookup
+* Create a Recipe object called Recipe (this will be the structure of all recipes)
 
+* Create a RecipeBox object called Recipe Box that will hold all the recipes
+
+* Instantiate a Recipe object called tempRecipe
+
+* Write to a property in the tempRecipe object
+
+* Fill the Ingredients and Instructions array of tempRecipe with mock data
+
+* Create a method in RecipeBox to **Add** a recipe to the AllRecipes array of Recipe objects
+
+* Create a method in RecipeBox that will output a recipe to console.log
+
+* Create a front end in HTML that displays a list of the Recipes in RecipeBox
+
+* Create a page in HTML that displays a single recipe
+
+* Create links from the list of Recipes on the top page that opens the page with a single recipe
+
+* Create a method in RecipeBox that will **Delete** a recipe
+
+* Create a method in RecipeBox to **Find** a recipe
+
+* Create a method in RecipeBox to **Edit** a recipe
 
 * Pretty up the UI
 
 * Refactor code as needed.
 
 ## Methodology
+
+. . .
 
 ## Technologies Used
 
@@ -73,7 +99,7 @@ Build a basic Recipe Box application in Angular from scratch. For now, you'll ha
 * Point your browser to localhost:4200
 
 ## Future expansion
-Adding more cities besides Portland seems like a logical next step. I could ask the user for their location in a text field or even have them find themselves on Google Maps. Also, I'd like to figure out arrow notation with objects!
+. . .
 
 ## Known Bugs and Issues
 
